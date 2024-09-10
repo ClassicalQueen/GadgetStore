@@ -5,19 +5,19 @@ import "./Index.css";
 const newArrivals = [
   {
     name: "Noise-Cancelling Wireless Earbuds",
-    image: "./src/assets/earpiece.png",
+    image: "/assets/earpiece.png",
     price: "₦45,000",
     rating: 4.5,
   },
   {
     name: "Vision Pro",
-    image: "./src/assets/visionpro.png",
+    image: "/assets/visionpro.png",
     price: "₦350,000",
     rating: 5,
   },
   {
     name: "Redmi Note 11 Pro",
-    image: "./src/assets/phone.png",
+    image: "/assets/phone.png",
     price: "₦45,000",
     rating: 4.2,
   },

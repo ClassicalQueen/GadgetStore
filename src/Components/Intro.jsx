@@ -32,7 +32,7 @@ function Intro() {
         </button>
       </div>
       <div className="Intro-image">
-        <img src="/src/assets/headphones.png" alt="Headphones" />
+        <img src="/assets/headphones.png" alt="Headphones" />
       </div>
     </section>
   );

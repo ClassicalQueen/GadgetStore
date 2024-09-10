@@ -10,16 +10,16 @@ function Footer() {
         <p>Get awesome gadgets from us any day any time.</p>
         <div className="social-media">
           <a href="#">
-            <img src="./src/assets/facebook.svg" alt="Facebook" />
+            <img src="/assets/facebook.svg" alt="Facebook" />
           </a>
           <a href="#">
-            <img src="./src/assets/insta.svg" alt="Instagram" />
+            <img src="/assets/insta.svg" alt="Instagram" />
           </a>
           <a href="#">
-            <img src="./src/assets/tweet.svg" alt="Twitter" />
+            <img src="/assets/tweet.svg" alt="Twitter" />
           </a>
           <a href="#">
-            <img src="./src/assets/linkedin.svg" alt="LinkedIn" />
+            <img src="/assets/linkedin.svg" alt="LinkedIn" />
           </a>
         </div>
       </div>
