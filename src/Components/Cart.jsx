@@ -9,13 +9,13 @@ import Footer from "./Footer";
 const products = [
   {
     name: "Redmi Note 11 Pro",
-    image: "./src/assets/phone.png",
+    image: "/assets/phone.png",
     price: "₦45,000",
     quantity: 1,
   },
   {
     name: "Redmi Case",
-    image: "./src/assets/phone.png",
+    image: "/assets/phone.png",
     price: "₦45,000",
     quantity: 1,
   },
