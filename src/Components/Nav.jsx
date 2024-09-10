@@ -14,7 +14,7 @@ function Nav() {
           <span className="bar"></span>
         </div>
         <div className="nav-list" id="nav-list">
-          <a href="/home">Home</a>
+          <a href="/">Home</a>
           <a href="/categories">Categories</a>
           <a href="/cart">Cart</a>
           <a href="/contact">Contact Us</a>

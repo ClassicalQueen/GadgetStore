@@ -2,6 +2,9 @@ import React from "react";
 import CartItem from "./CartItem";
 import OrderSummary from "./OrderSummary";
 import "./Cart.css";
+import Nav from "./Nav";
+import Newsletter from "./Newsletter";
+import Footer from "./Footer";
 
 const products = [
   {
@@ -28,6 +31,8 @@ function Cart() {
   const shipping = 500;
 
   return (
+    <div className="whole">
+    <Nav />
     <div className="CartPage">
       <h2>Cart</h2>
       <div className="CartPage-content">
@@ -38,6 +43,9 @@ function Cart() {
         </div>
         <OrderSummary subtotal={subtotal} tax={tax} shipping={shipping} />
       </div>
+    </div>
+    <Newsletter />
+    <Footer />
     </div>
   );
 }

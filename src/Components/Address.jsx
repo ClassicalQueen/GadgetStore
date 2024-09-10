@@ -1,8 +1,13 @@
 import React from "react";
 import "./Cart.css";
+import Nav from "./Nav";
+import Newsletter from "./Newsletter";
+import Footer from "./Footer";
 
 const Address = () => {
   return (
+    <div className="wholep">
+      <Nav />
     <div className="address-form-container">
       <form className="address-form">
         <h3>Add New Address</h3>
@@ -43,6 +48,9 @@ const Address = () => {
         </div>
         <button className="checkout-btn">Proceed Checkout</button>
       </div>
+    </div>
+    <Newsletter />
+    <Footer />
     </div>
   );
 };
