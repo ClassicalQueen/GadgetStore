@@ -16,6 +16,7 @@ function Intro() {
           for cutting-edge smartphones, powerful accessories, or the newest
           gadgets, we have it all.
         </p>
+        <a href="./cart">
         <button className="shop-now">
           <svg
             className="cart"
@@ -30,6 +31,7 @@ function Intro() {
           </svg>{" "}
           Shop Now
         </button>
+        </a>
       </div>
       <div className="Intro-image">
         <img src="/assets/headphones.png" alt="Headphones" />
